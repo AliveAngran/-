@@ -226,7 +226,7 @@ export const SimulationGame: React.FC<{ onExit: () => void }> = ({ onExit }) => 
 
                     <div className="space-y-2">
                         <div className="flex justify-between text-xs font-mono">
-                            <span>信息保留率 (必须 &gt; 50%)</span>
+                            <span>信息保留率 (必须大于 50%)</span>
                             <span className={state.infoRetention < 50 ? "text-red-500" : "text-blue-500"}>{state.infoRetention.toFixed(0)}%</span>
                         </div>
                         <div className="h-4 bg-zinc-800 rounded-full overflow-hidden">
@@ -389,7 +389,7 @@ export const SimulationGame: React.FC<{ onExit: () => void }> = ({ onExit }) => 
   const renderDecoding = () => (
       <div className="flex flex-col items-center justify-center h-full animate-in zoom-in duration-700">
           <RefreshCw size={64} className="text-white animate-spin mb-4" />
-          <h2 className="text-2xl font-mono text-white">UPSCALING 64px -> 512px...</h2>
+          <h2 className="text-2xl font-mono text-white">UPSCALING 64px to 512px...</h2>
       </div>
   );
 
