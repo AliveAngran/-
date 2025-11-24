@@ -19,6 +19,7 @@ export enum StepType {
     description: string;
     academicNote: string;
     logicLink?: string; // The "Why this step follows the previous one" explanation
+    guide?: string; // Short "Try this" instruction
   }
 
   export enum AppMode {
