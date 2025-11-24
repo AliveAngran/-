@@ -271,7 +271,7 @@ export default function App() {
                     ))}
                  </div>
                  <p className="text-xs font-mono text-zinc-500 bg-zinc-900 px-3 py-1 rounded border border-white/5">
-                    正在执行：预测噪声 -> 减去噪声 -> 得到更清晰图像
+                    正在执行：预测噪声 &rarr; 减去噪声 &rarr; 得到更清晰图像
                  </p>
              </div>
         );
